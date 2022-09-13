@@ -1,0 +1,12 @@
+.encima:before {
+    content:"Pasa por encima";
+}
+
+.encima:hover { /*Se activa en cuanto el raton pasa por encima */
+    color:white;
+    background-color: green;
+}
+
+.encima:hover::before {
+    content:"¡Hecho!";
+}
